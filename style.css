@@ -93,3 +93,30 @@ body {
     cursor: default;
     width: 85%;
 }
+
+@media (max-width: 600px) {
+    .title-container h1 {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-container .buy-box {
+        width: 150px;
+        height: 65px;
+    }
+}
+
+@media (max-width: 400px) {
+    .title-container h1 {
+        font-size: 1.15rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-container .buy-box {
+        width: 100px;
+        height: 55px;
+        font-size: 0.8rem;
+    }
+}
